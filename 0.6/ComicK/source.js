@@ -9865,16 +9865,16 @@ exports.ComicK = exports.ComicKInfo = void 0;
 const paperback_extensions_common_1 = require("paperback-extensions-common");
 const ComicKParser_1 = require("./ComicKParser");
 const ComicKSettings_1 = require("./ComicKSettings");
-const COMICK_DOMAIN = 'https://comick.fun';
-const COMICK_API = 'https://api.comick.fun';
+const COMICK_DOMAIN = 'https://comick.cc';
+const COMICK_API = 'https://api.comick.cc';
 const SEARCH_PAGE_LIMIT = 100;
 exports.ComicKInfo = {
-    version: '1.0.5',
+    version: '1.0.6',
     name: 'ComicK',
     icon: 'icon.png',
     author: 'xOnlyFadi',
     authorWebsite: 'https://github.com/xOnlyFadi',
-    description: 'Extension that pulls manga from comick.fun.',
+    description: 'Extension that pulls manga from comick.cc.',
     contentRating: paperback_extensions_common_1.ContentRating.MATURE,
     websiteBaseURL: COMICK_DOMAIN,
     sourceTags: [
