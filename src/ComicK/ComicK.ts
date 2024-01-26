@@ -42,7 +42,7 @@ const COMICK_API = 'https://api.comick.cc'
 const SEARCH_PAGE_LIMIT = 100
 
 export const ComicKInfo: SourceInfo = {
-    version: '1.0.5',
+    version: '1.0.6',
     name: 'ComicK',
     icon: 'icon.png',
     author: 'xOnlyFadi',
