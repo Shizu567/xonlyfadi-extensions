@@ -37,8 +37,8 @@ import {
     resetSettings
 } from './ComicKSettings'
 
-const COMICK_DOMAIN = 'https://comick.fun'
-const COMICK_API = 'https://api.comick.fun'
+const COMICK_DOMAIN = 'https://comick.cc'
+const COMICK_API = 'https://api.comick.cc'
 const SEARCH_PAGE_LIMIT = 100
 
 export const ComicKInfo: SourceInfo = {
@@ -47,7 +47,7 @@ export const ComicKInfo: SourceInfo = {
     icon: 'icon.png',
     author: 'xOnlyFadi',
     authorWebsite: 'https://github.com/xOnlyFadi',
-    description: 'Extension that pulls manga from comick.fun.',
+    description: 'Extension that pulls manga from comick.cc.',
     contentRating: ContentRating.MATURE,
     websiteBaseURL: COMICK_DOMAIN,
     sourceTags: [
