@@ -8902,16 +8902,16 @@ const types_1 = require("@paperback/types");
 const ComicKParser_1 = require("./ComicKParser");
 const ComicKSettings_1 = require("./ComicKSettings");
 const ComicKHelper_1 = require("./ComicKHelper");
-const COMICK_DOMAIN = 'https://comick.cc';
-const COMICK_API = 'https://api.comick.fun';
+const COMICK_DOMAIN = 'https://comick.io';
+const COMICK_API = 'https://api.comick.io';
 const LIMIT = 300;
 exports.ComicKInfo = {
-    version: '2.1.3',
+    version: '2.1.4',
     name: 'ComicK',
     icon: 'icon.png',
     author: 'xOnlyFadi',
     authorWebsite: 'https://github.com/xOnlyFadi',
-    description: 'Extension that pulls manga from comick.cc.',
+    description: 'Extension that pulls manga from comick.io.',
     contentRating: types_1.ContentRating.MATURE,
     websiteBaseURL: COMICK_DOMAIN,
     intents: types_1.SourceIntents.HOMEPAGE_SECTIONS | types_1.SourceIntents.SETTINGS_UI | types_1.SourceIntents.MANGA_CHAPTERS | types_1.SourceIntents.CLOUDFLARE_BYPASS_REQUIRED,
